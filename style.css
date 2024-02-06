@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./assets/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cabecalho{
+    background-color: red;
+}
+#grade_pai{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 10%;
+    row-gap: 45%;
+    padding: 100px;
+}
+.filhas{
+    text-align: center;
+}
+img{
+    width: 142px;
+    height: 221px;
+}
