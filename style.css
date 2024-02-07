@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-        background-image: url("./assets/fundo2.jpg");
+    background-image: url("./assets/fundo2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -17,6 +17,7 @@ body{
 
 }
 #titulo{
+    margin-top: 1%;
     margin-left: 20%;
     font-family: 'Walter Turncoat', cursive;
     grid-column-start: 1;
